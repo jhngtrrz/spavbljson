@@ -6,7 +6,7 @@ Este proyecto toma la versión de la Biblia libre en formato texto plano (`spavb
 
 ## Versión
 
-**Versión actual: 1.0.0**
+**Versión actual: 1.0.7**
 
 Esta es la primera versión funcional del proyecto, que incluye la conversión completa del texto bíblico a JSON. Futuras actualizaciones seguirán el versionado semántico (SemVer):
 
