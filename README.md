@@ -6,7 +6,7 @@ Este proyecto toma la versión de la Biblia libre en formato texto plano (`spavb
 
 ## Versión
 
-**Versión actual: 1.0.9**
+**Versión actual: 1.0.10**
 
 - **MAJOR**: Cambios incompatibles (ej. reestructuración completa del JSON).
 - **MINOR**: Nuevas funcionalidades compatibles (ej. agregar metadatos o herramientas adicionales).
@@ -42,7 +42,6 @@ El archivo de salida `spavbl.json` tendrá una estructura organizada jerárquica
             "1": {
               "1": "En el principio, Dios creó los cielos y la tierra.",
               "2": "La tierra carecía de forma y estaba vacía; la oscuridad cubría la superficie del abismo y el Espíritu de Dios se movía sobre la superficie de las aguas.",
-              "3": "Y Dios dijo: \"¡Que haya luz!\" y hubo luz.",
               ...
             },
             "2": {
@@ -86,7 +85,7 @@ Con las siguientes condiciones:
 - Si realizas cambios, debes indicar claramente que los hiciste y que el licenciante original no necesariamente respalda tus cambios.
 - Si redistribuyes, debes hacerlo bajo la misma licencia (CC BY-SA 4.0).
 
-Para más detalles, consulta los términos completos en [Creative Commons](https://creativecommons.org/licenses/by-sa/4.0/) o el sitio de eBible.org.
+Para más detalles, consulta los términos completos en [Creative Commons](https://creativecommons.org/licenses/by-sa/4.0/) o el sitio de [eBible.org](https://ebible.org/details.php?id=spavbl)
 
 Nota: Revisar y adaptar la Palabra de Dios implica una gran responsabilidad para ser fiel a ella (ver Apocalipsis 22:18-19).
 
