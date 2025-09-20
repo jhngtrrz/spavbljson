@@ -6,15 +6,11 @@ Este proyecto toma la versión de la Biblia libre en formato texto plano (`spavb
 
 ## Versión
 
-**Versión actual: 1.0.7**
-
-Esta es la primera versión funcional del proyecto, que incluye la conversión completa del texto bíblico a JSON. Futuras actualizaciones seguirán el versionado semántico (SemVer):
+**Versión actual: 1.0.8**
 
 - **MAJOR**: Cambios incompatibles (ej. reestructuración completa del JSON).
 - **MINOR**: Nuevas funcionalidades compatibles (ej. agregar metadatos o herramientas adicionales).
 - **PATCH**: Correcciones de errores o mejoras menores.
-
-Si prefieres una versión inicial más conservadora (como 0.1.0), puedes cambiarla según tus preferencias. Para proyectos en desarrollo temprano, se usa 0.x.x, pero dado que la conversión básica está completa, 1.0.0 es apropiada.
 
 ## Fuente de Datos
 
@@ -27,7 +23,7 @@ GEN 1:3 Y Dios dijo: “¡Que haya luz!” y hubo luz.
 ...
 ```
 
-Este archivo es proporcionado por [eBible.org](https://eBible.org) y está diseñado para ser importado en programas de estudio bíblico como BibleWorks. Contiene únicamente el texto bíblico sin formato adicional, notas o secciones no canónicas.
+Este archivo es proporcionado por [eBible.org](https://ebible.org/details.php?id=spavbl) y está diseñado para ser importado en programas de estudio bíblico como BibleWorks. Contiene únicamente el texto bíblico sin formato adicional, notas o secciones no canónicas.
 
 ## Estructura del JSON de Salida
 
@@ -96,4 +92,4 @@ Nota: Revisar y adaptar la Palabra de Dios implica una gran responsabilidad para
 
 ---
 
-_Proyecto creado el 15 de septiembre de 2025._
+_Proyecto actualizado el 20 de septiembre de 2025._
