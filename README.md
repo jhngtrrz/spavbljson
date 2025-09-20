@@ -2,11 +2,11 @@
 
 ## Descripción
 
-Este proyecto toma la versión de la Biblia libre en formato texto plano (`spavbl_vpl.txt`) y la convierte a un formato JSON organizado para facilitar su uso en aplicaciones y análisis.
+Este proyecto toma la versión de la Biblia libre en formato texto plano (`spavbl_vpl.txt`) de fecha 13-06-2025 y la convierte a un formato JSON organizado para facilitar su uso en aplicaciones y análisis.
 
 ## Versión
 
-**Versión actual: 1.0.12**
+**Versión actual: 1.0.13**
 
 - **MAJOR**: Cambios incompatibles (ej. reestructuración completa del JSON).
 - **MINOR**: Nuevas funcionalidades compatibles (ej. agregar metadatos o herramientas adicionales).
@@ -23,7 +23,7 @@ GEN 1:3 Y Dios dijo: “¡Que haya luz!” y hubo luz.
 ...
 ```
 
-Este archivo es proporcionado por [eBible.org](https://ebible.org/details.php?id=spavbl) y está diseñado para ser importado en programas de estudio bíblico como BibleWorks. Contiene únicamente el texto bíblico sin formato adicional, notas o secciones no canónicas.
+Este archivo es proporcionado por [eBible.org](https://ebible.org/details.php?id=spavbl) y está diseñado para ser importado en programas de estudio bíblico. Contiene únicamente el texto bíblico sin formato adicional, notas o secciones no canónicas.
 
 ## Estructura del JSON de Salida
 
@@ -72,7 +72,7 @@ Si deseas contribuir, por favor sigue las mejores prácticas para el manejo de t
 
 ## Licencia
 
-El texto de la Biblia utilizado en este proyecto es la **Versión Biblia Libre** (Free Bible Version), copyright © 2018-2020 Jonathan Gallagher y Shelly Barrios de Avila. Está disponible bajo la licencia **Creative Commons Attribution Share-Alike 4.0 (CC BY-SA 4.0)**.
+El texto de la Biblia utilizado en este proyecto es la **Versión Biblia Libre** (Free Bible Version), copyright © 2018-2020 **Jonathan Gallagher y Shelly Barrios de Avila**. Está disponible bajo la licencia **Creative Commons Attribution Share-Alike 4.0 (CC BY-SA 4.0)**.
 
 Esta licencia es permisiva y permite:
 
@@ -83,11 +83,11 @@ Con las siguientes condiciones:
 
 - Debes incluir la información de copyright y fuente original.
 - Si realizas cambios, debes indicar claramente que los hiciste y que el licenciante original no necesariamente respalda tus cambios.
-- Si redistribuyes, debes hacerlo bajo la misma licencia (CC BY-SA 4.0).
+- Si redistribuyes, debes hacerlo bajo la misma licencia **(CC BY-SA 4.0)**.
 
 Para más detalles, consulta los términos completos en [Creative Commons](https://creativecommons.org/licenses/by-sa/4.0/) o el sitio de [eBible.org](https://ebible.org/details.php?id=spavbl)
 
-Nota: Revisar y adaptar la Palabra de Dios implica una gran responsabilidad para ser fiel a ella (ver Apocalipsis 22:18-19).
+Nota: Revisar y adaptar la Palabra de Dios implica una gran responsabilidad para ser fiel a ella (ver **Apocalipsis 22:18-19**).
 
 ---
 
