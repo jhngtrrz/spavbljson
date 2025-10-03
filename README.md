@@ -6,7 +6,7 @@ Este proyecto toma la versión de la Biblia libre en formato texto plano (`spavb
 
 ## Versión
 
-**Versión actual: 1.2.0**
+**Versión actual: 1.2.1**
 
 - **MAJOR**: Cambios incompatibles (ej. reestructuración completa del JSON).
 - **MINOR**: Nuevas funcionalidades compatibles (ej. agregar metadatos o herramientas adicionales).
@@ -23,11 +23,11 @@ GEN 1:3 Y Dios dijo: “¡Que haya luz!” y hubo luz.
 ...
 ```
 
-Este archivo es proporcionado por [eBible.org](https://ebible.org/details.php?id=spavbl) y está diseñado para ser importado en programas de estudio bíblico. Contiene únicamente el texto bíblico sin formato adicional, notas o secciones no canónicas.
+Este archivo es proporcionado por [eBible.org](https://ebible.org/details.php?id=spavbl) Aunque originalmente contiene solo el texto bíblico, este proyecto lo enriquece añadiendo notas explicativas en la estructura JSON tomadas del archivo `spavbl_html.zip`.
 
 ## Estructura del JSON de Salida
 
-El archivo de salida `spavbl.json` tendrá una estructura organizada jerárquica basada en la conversión del texto plano:
+El archivo de salida `spavbl.json` tiene una estructura jerárquica. Cada versículo es un objeto que contiene el texto y, opcionalmente, un array de notas.
 
 ```json
 {
@@ -40,21 +40,20 @@ El archivo de salida `spavbl.json` tendrá una estructura organizada jerárquica
           "categoria": "Pentateuco",
           "capitulo": {
             "1": {
-              "1": "En el principio, Dios creó los cielos y la tierra.",
-              "2": "La tierra carecía de forma y estaba vacía; la oscuridad cubría la superficie del abismo y el Espíritu de Dios se movía sobre la superficie de las aguas.",
-              ...
-            },
-            "2": {
-              "1": "La creación de los cielos, la tierra y todo lo que hay en ellos quedó terminada.",
+              "1": {
+                "texto": "En el principio, Dios creó los cielos y la tierra."
+              },
+              "2": {
+                "texto": "La tierra carecía de forma y estaba vacía; la oscuridad cubría la superficie del abismo y el Espíritu de Dios se movía sobre la superficie de las aguas."
+              },
+              "5": {
+                "texto": "Entonces Dios llamó a la luz “día” y a la oscuridad le llamó “noche”. Así que hubo noche y mañana, lo cual fue el primer día.",
+                "notas": [
+                  "Es importante decir que el “día” se mide desde la oscuridad a la luz, que sigue siendo el método judío para calcular los días."
+                ]
+              },
               ...
             }
-          }
-        },
-        "exo": {
-          "nombre": "Éxodo",
-          "categoria": "Pentateuco",
-          "capitulo": {
-            ...
           }
         },
         ...
@@ -64,7 +63,7 @@ El archivo de salida `spavbl.json` tendrá una estructura organizada jerárquica
 }
 ```
 
-Esta estructura refleja la organización del archivo JSON existente, con libros en minúsculas (ej. "gen", "exo"), incluyendo nombre y categoría para cada libro, y capítulos con versículos numerados.
+Esta estructura permite que cada versículo contenga no solo su texto (`"texto"`) sino también un array de notas explicativas (`"notas"`), si existen.
 
 ## Contribución
 
